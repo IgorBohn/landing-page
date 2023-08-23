@@ -1,0 +1,122 @@
+.how-it-works {
+  font-family: 'Belleza';
+  margin-bottom: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+  position: relative;
+}
+
+.how-it-works__title {
+  font-family: 'Belleza';
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 129px;
+  margin-bottom: 39px;
+}
+.vector-1-container {
+  position: absolute;
+  z-index: -1;
+  transform: translateX(28px); /* Adjust the value as needed */
+}
+.vector-2-container {
+  position: absolute;
+  z-index: -1;
+  transform: translate(23px, 45px); /* Adjust the values as needed */
+}
+.how-it-works__item {
+  display: flex;
+  margin-bottom: 110px;
+  position: relative;
+}
+.how-it-works__text-1 {
+  margin-right: 110px;
+}
+.how-it-works__item:nth-child(2) .circle {
+  margin-left: 75px;
+}
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  min-width: 60px;
+  height: 60px;
+  background-color: #fae845;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.number {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.how-it-works__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.how-it-works__wrapper h3 {
+  font-family: 'Belleza', sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 15px 0 0 0;
+}
+
+.how-it-works__wrapper p {
+  font-family: 'Belleza', sans-serif;
+  font-size: 16px;
+  max-width: 396px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 845px) {
+  .how-it-works__item {
+    flex-direction: column;
+    margin: 0 55px;
+  }
+
+  .how-it-works__text-1 {
+    margin: 0 auto;
+  }
+  .how-it-works__item:nth-child(2) .circle {
+    margin-left: 0;
+  }
+  .how-it-works__item img {
+    display: none;
+  }
+  .vector-1-container {
+    display: none;
+  }
+
+  .vector-2-container {
+    display: none;
+  }
+  .circle {
+    margin: 55px 0;
+    align-self: center;
+  }
+  .how-it-works__wrapper h3 {
+    font-size: 24px;
+  }
+  .how-it-works__wrapper p {
+    font-size: 14px;
+  }
+}

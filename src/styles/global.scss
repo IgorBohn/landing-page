@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+@font-face {
+  font-family: 'Alta';
+  src: url('/fonts/alta.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Belleza';
+  src: url('/fonts/belleza.woff2') format('woff2'),
+    url('/fonts/belleza.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cerebri Sans Pro';
+  src: url('/fonts/CerebriSansPro-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

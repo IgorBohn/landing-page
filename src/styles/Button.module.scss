@@ -1,0 +1,38 @@
+.button {
+  background-color: #fae845;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 56px;
+  text-decoration: none;
+}
+
+.button.startQuote {
+  width: 197px;
+}
+
+.button.seeHow {
+  width: 227px;
+}
+
+.button.join {
+  width: 121px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.button.submit {
+  width: 435px;
+}
+
+@media screen and (max-width: 745px) {
+  .button.startQuote {
+    margin-top: 25px;
+  }
+}
