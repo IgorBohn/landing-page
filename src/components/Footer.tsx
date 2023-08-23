@@ -94,7 +94,7 @@ export default function Footer() {
         </div>
       </div>
       <p className={styles.footer__copy}>
-        © 2023 - Contrast Marketing. All rights reserved.
+        © 2023 - Landing Page. All rights reserved.
       </p>
     </footer>
   );
